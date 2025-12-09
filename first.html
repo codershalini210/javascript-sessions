@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first webpage</title>
+    <style>
+        /* internal css */
+        p
+        {
+            color:blue;
+        }
+        h1
+        {
+            color:orange;
+            text-decoration: underline;
+        }
+        #d1
+        {
+            background-color: plum;
+            width:50%;
+            height:500px;
+            text-align: center;
+            align-content: center;
+        }
+        #container
+        {
+            background-color:rgb(146, 230, 251);
+          height: 300px;
+            width: 100%;
+            display: flex;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            gap:20px;
+            justify-content: center;
+           
+        }
+        .contain{
+            height:100px;
+            width:40%;
+            background-color: rgb(244, 44, 107);
+        }
+        .bg-blue
+        {
+            background-color: blueviolet;
+            color:white;
+        }
+        .bg-orange
+        {
+            background-color: orange;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1 style="text-align: center;">Full Stack Developer</h1>
+    <p>
+        Lorem, &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ipsum dolor sit  <br>
+        amet consectetur adipisicing elit. Molestias nulla animi <br> quisquam. Vitae incidunt maiores, debitis repellendus ipsum repudiandae inventore! Maxime officia eaque quam. Cupiditate voluptas eius provident amet ducimus?
+    </p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae aliquam consequuntur ea accusantium sed, soluta repellendus rem. Fugit temporibus non voluptatem expedita? Dolor, adipisci tempora! Maiores magni qui consequuntur impedit.
+    </p>
+    <h1> DBA</h1>
+    <p> this is description for DBA Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquam qui consequuntur expedita sint, est ducimus alias eaque adipisci voluptatum dolore quibusdam sed totam molestiae ad, ratione veritatis officiis? Veritatis!</p>
+    <div id="d1">
+        
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo soluta, vero tempore esse at fugit, possimus cum illo tenetur accusamus aut ex ipsa consectetur architecto! Quasi, repellendus? Quasi, nesciunt ut.lore
+            <h2>Hello world </h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium doloremque possimus distinctio atque, repellendus nostrum laborum dicta mollitia voluptas quam. Ipsa nulla dolore cupiditate? Eaque temporibus nobis possimus illo!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit, nemo obcaecati vel maiores totam quia dolor fugiat ut! Accusantium sapiente at beatae facere similique nesciunt sequi aperiam, nam pariatur corporis autem cum ipsum quidem voluptatum, possimus cupiditate. Assumenda deleniti blanditiis maxime officia, soluta rerum dolorum vero delectus facilis, iure ullam laboriosam fugit! Similique consequuntur fugiat odit iure et consectetur sint est ex.
+
+    </div>
+    </div>
+    <div id="container">
+        <div class="contain">1</div>
+        <div class="contain" style="background-color: orange;">2</div>
+        <div class="contain bg-orange">3</div>
+        <div class="contain bg-blue">4</div>
+        <div class="contain">5</div>
+        <div class="contain bg-orange">6</div>
+        <div class="contain bg-blue">7</div>
+    </div>
+</body>
+</html>

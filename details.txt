@@ -1,0 +1,17 @@
+h1 ,h2,h3,h4,h5,h6
+p
+<br>
+&nbsp
+class selectors-> byelementname , by id , class
+p    this will apply this css on all p tags
+{
+
+}
+#d1  this is apply this set of css on element whose id is d1
+{
+
+}
+.box    this is applied on all the element who has class = "box "
+{
+
+}
