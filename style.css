@@ -20,8 +20,12 @@
 {
     width:200px;
     height:200px;
-    border-radius:50%;
+   
     /* border:2px solid rgb(249, 249, 124); */
+}
+.circle
+{
+     border-radius:50%;
 }
 .member-name
 {
@@ -63,3 +67,11 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     }
+
+.description{
+    width:80%;
+    text-align:center;
+    margin-left:10%;
+    line-height: 25px;
+    word-spacing: 15px;
+}
