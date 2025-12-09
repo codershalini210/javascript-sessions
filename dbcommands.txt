@@ -1,0 +1,46 @@
+sqlite3 mydatabase.db
+-- to open to create a new database
+create table movies(id integer primary key ,title text not null, director text);
+-- command to create a new table where movies is a table naem 
+insert into movies(id,title,director) values(1,'ABC','John Doe');
+-- command to insert new data in table
+select * from movies
+-- select all data from movies
+select title from movies;
+-- select only title columns of all rows
+select title,director  from movies;
+-- select only title,director columns  from table movies;
+
+create table students(student_id integer primary key, name text, class_id integer) 
+   ...> ;
+sqlite> create table classes ( class_id integer,class_name TEXT)
+   ...> ;
+sqlite> insert into classes values(101,'Maths'),(102,'Science'),(103,'Programming');
+
+select * from students st inner join classes cls on st.class_id = cls.class_id;
+
+select st.student_id , st.name , cls.class_name from students st inner join classes cls on st.class_id = cls.class_id;
+
+ select st.student_id , st.name , cls.class_name from students st left join classes cls on 
+st.class_id = cls.class_id;
+
+ select st.student_id , st.name , cls.class_name from students st right join classes cls on st.class_id = cls.class_id;
+
+ select st.student_id , st.name , cls.class_name from students st cross join classes cls
+
+
+create table sales( sale_id integer primary key autoincrement,
+product text, quantity integer, price REAL, month text);
+
+insert into sales(product,quantity,price,month) values('Apple',10,1.00,'Jan'),('Banana',20,3.2,'Feb'),('Apple',5,2.00,'Feb'),('Banana',25,2.5,'Jan'),('Orange',26,4,'Jan');
+
+select product from sales  group by product;
+
+
+select product,sum(quantity) as total_qty  from sales  group by product; 
+
+ select month,sum(quantity) as total_qty  from sales  group by month; 
+
+select product,sum(quantity) as total_qty  from sales  group by product having total_qty >25 ;
+
+alter table sales Add column discount Real;
