@@ -75,3 +75,20 @@ header{
     line-height: 25px;
     word-spacing: 15px;
 }
+ .btn-primary
+        {
+            height:40px;
+            width:120px;
+            background-color: rgb(101, 194, 247);
+            border:1px solid black;
+        }
+.square
+{
+    height:200px;
+    width:200px;
+    border:2px solid purple;
+}
+.hidden
+{
+    visibility: hidden;
+}
