@@ -92,6 +92,10 @@ header{
 {
     visibility: hidden;
 }
+.visible
+{
+    visibility: visible;
+}
 .bg-orange
 {
     background-color:orange;
