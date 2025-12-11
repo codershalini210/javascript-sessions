@@ -1,0 +1,12 @@
+.hidden
+{
+    /* visibility: hidden; */
+    display:none;
+}
+.faq_question
+{
+    background-color: blueviolet;
+    color:white;
+    margin:1px;
+    padding:0;
+}
