@@ -1,0 +1,5 @@
+input[type="button"]
+{
+    background-color: goldenrod;
+    box-shadow: 1px 1px 1px red;
+}
