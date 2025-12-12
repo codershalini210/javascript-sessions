@@ -1,0 +1,35 @@
+.book_item
+{
+    background-color: aliceblue;
+    margin-top:2px;
+}
+#txtsearch{
+
+    width:75%;
+    height: 25px;
+    border:none;
+}
+#txtsearch:focus{
+ border:none;
+    outline-color:orange;
+}
+#book_list
+{
+    font-size: 20px;
+}
+.container
+{
+        display:flex;
+    flex-direction: column;
+    gap:10px;
+    width:50%;
+    margin-left:25%;
+    background-color: orange;
+    padding:25px;
+    box-sizing: border-box;
+
+}
+.hidden
+{
+    display:none
+}
